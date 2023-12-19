@@ -7,7 +7,8 @@
 
 # the idea is to obtain a number close to the postive zero of the function f(x) = x^2 - c
 # by finding the zero of the tangent line.
-# this requires a 'good' intial guess of the zero, I use x / 2 as the intial guess
+# this requires a 'good' intial guess of the zero, I use x / 2 as the intial guess.
+# a better intial guess may enable a faster convergence, and thus less iterations required in the for loop
 
 from math import floor
 def mySqrt(x):
